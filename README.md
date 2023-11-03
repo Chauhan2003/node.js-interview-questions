@@ -22,3 +22,16 @@ we can also use it for developing: Real-time web applications, Network applicati
 -> A single thread from the Thread Pool is assigned to a single complex request. This thread is responsible for completing a particular blocking request by accessing external resources, such as computation, database, file system, etc.
 
 -> Once the task is carried out completely, the response is sent to the Event Loop that sends that response back to the client.
+
+# Why is Node.js Single-threaded?
+Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
+
+# Explain callback in Node.js.
+A callback function is called after a given task. It allows other code to be run in the meantime and prevents any blocking.  Being an asynchronous platform, Node.js heavily relies on callback. All APIs of Node are written to support callbacks.
+
+# What are the advantages of using promises instead of callbacks?
+-> The control flow of asynchronous logic is more specified and structured.
+
+-> We've built-in error handling.
+
+-> Improved readability.
