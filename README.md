@@ -14,4 +14,4 @@ we can also use it for developing: Real-time web applications, Network applicati
 -> The Event Loop processes simple requests (non-blocking operations), such as I/O Polling, and returns the responses to the corresponding clients
 -> A single thread from the Thread Pool is assigned to a single complex request. This thread is responsible for completing a particular blocking request by accessing external resources, such as computation, database, file system, etc.
 
-### Once the task is carried out completely, the response is sent to the Event Loop that sends that response back to the client.
+#### Once the task is carried out completely, the response is sent to the Event Loop that sends that response back to the client.
