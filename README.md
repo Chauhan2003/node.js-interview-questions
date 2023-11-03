@@ -5,7 +5,7 @@ Node.js is an open-source, cross-platform JavaScript runtime environment and lib
 we can also use it for developing: Real-time web applications, Network applications, General-purpose applications, and Distributed systems.
 
 # How does Node.js work?
-Clients send requests to the webserver to interact with the web application. Requests can be non-blocking or blocking:
+-> Clients send requests to the webserver to interact with the web application. Requests can be non-blocking or blocking:
 
 -> Querying for data
 
